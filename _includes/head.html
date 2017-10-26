@@ -11,7 +11,7 @@
   <meta property="og:title" content="{{site.title}}" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{site.url}}" />
-  <meta property="og:image" content="{{site.url}}img/hayacuerdo.png" />
+  <meta property="og:image" content="{{ "/img/hayacuerdo.png" | prepend: site.baseurl }}" />
   <meta property="og:description" content="{{site.description}}" />
   <!-- end facebook shit-->
   <!-- twitter card -->
@@ -20,17 +20,17 @@
   <meta name="twitter:title" content="{{site.title}}">
   <meta name="twitter:description" content="{{site.description}}">
   <meta name="twitter:creator" content="{{site.twitter.username}}">
-  <meta name="twitter:image" content="{{site.url}}/img/hayacuerdo.png" />
+  <meta name="twitter:image" content="{{ "/img/hayacuerdo.png" | prepend: site.baseurl }}" />
   <!-- end twitter card -->
   <!-- Schema.org markup for Google+ -->
   <meta itemprop="name" content="{{site.title}}">
   <meta itemprop="description" content="{{site.description}}">
-  <meta itemprop="image" content="{{site.url}}/img/hayacuerdo.png">
+  <meta itemprop="image" content="{{ "/img/hayacuerdo.png" | prepend: site.baseurl }}">
   <!-- end Google+ -->
 
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href='//fonts.googleapis.com/css?family=Open+Sans:100,400,300,700' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
