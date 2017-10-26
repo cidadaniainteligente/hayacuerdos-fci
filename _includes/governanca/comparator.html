@@ -1,0 +1,18 @@
+<div class="sheet_page" data-sheet="{{ site.gsheetgovernanca-sheetpage }}"></div>
+<div class="allPositions"></div>
+
+<script type="text/javascript">
+  var url_share = '{{ site.url }}';
+  window.onload = function() { init() };
+
+  var public_spreadsheet_url = "{{ site.gsheetgovernanca }}";
+
+  function init() {
+    Tabletop.init( { key: public_spreadsheet_url,
+                     callback: showInfo,
+                     wanted: ['governanca-governanca'],
+                     simpleSheet: true } )
+  }
+</script>
+
+<script type="text/javascript" src="{{ site.url }}/js/hayacuerdo.js"></script>

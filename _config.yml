@@ -3,34 +3,13 @@ title: Tem acordo
 email: prensa@ciudadanointeligente.org
 description: La Reforma al Financiamiento de la Política es clave para el fortalecimiento de las confianzas entre los ciudadanos y sus autoridades o representantes. Los ciudadanos abogamos por una reforma y el Gobierno envió su Proyecto de Ley... pero Hay Acuerdo?
 baseurl: http://temacordo.cidadaniainteligente.org/
-basedomain: temacordo.cidadaniainteligente.org 
+basedomain: temacordo.cidadaniainteligente.org
 analytics: "UA-41822715-4"
 
 # Governança
-gsheetgovernance: "https://docs.google.com/spreadsheets/d/1j7XjeGe4OJ8vYtDwx_ipOvR0z5gsafVnh9b37-CJ58A/pubhtml?gid=232814432&single=true"
+gsheetgovernanca: "https://docs.google.com/spreadsheets/d/1j7XjeGe4OJ8vYtDwx_ipOvR0z5gsafVnh9b37-CJ58A/pubhtml"
 # first page to load
-gsheetgovernance-sheetpage: "governance"
-
-# example
-gsheetexampleurl: "https://docs.google.com/spreadsheets/d/1V2gqtFl7rvZOv9Hbd4f5_3Z45OsyqVyht7FxE5EtiK8/pubhtml"
-# first page to load
-gsheetexample-sheetpage: "government-oposition"
-
-# educacion
-gsheeteducacion: "https://docs.google.com/spreadsheets/d/1j7XjeGe4OJ8vYtDwx_ipOvR0z5gsafVnh9b37-CJ58A/pubhtml"
-# first page to load
-gsheeteducacion-sheetpage: "gobierno-fech"
-
-# binominal
-gsheetbinominal: "https://docs.google.com/spreadsheets/d/1dxarZUl5bsHAe-DhGIC6ox5_JD6oVvqmkNrOObrz3Rw/pubhtml"
-# first page to load
-gsheetbinominal-sheetpage: "gobierno-evopoli"
-
-# dineroypolitica
-gsheetdineroypolitica: "https://docs.google.com/spreadsheets/d/17Lxec6xDeT9Nxm432Tk7mUFgRMF2xYWJesx87x7y4yQ/pubhtml"
-# first page to load
-gsheetdineroypolitica-sheetpage: "gobierno-fci"
-
+gsheetgovernanca-sheetpage: "governanca-governanca"
 
 # twitter
 twitter:

@@ -43,8 +43,6 @@ function showInfo(data, tabletop) {
 
   var title_compare = $(".title-compare");
 
-
-
   $.each(tabletop.sheets(), function(i, sheet){
     var name = '', active = '';
     switch( sheet.name ) {
@@ -153,7 +151,9 @@ function showInfo(data, tabletop) {
 }
 
 function drawpositions(index, row, sheet_page) {
-  var opositor_name = $(".title-compare")[0].innerHTML;
+  var opositor_name = '';
+  if( $(".title-compare").length )
+    var opositor_name = $(".title-compare")[0].innerHTML;
   var posture1_twitter = '<a href="#" onclick="window.open(\'https://twitter.com/share?url='+url_share+'%3Fposture='+sheet_page+'&amp;via=ciudadanoi&amp;hashtags=hayacuerdo&amp;text='+row.postura1.substr(0, 80)+'\',\'twitter\',\'width=450, height=250\')"><i class="fa fa-twitter"></i> twitter</a></div>',
       posture2_twitter = '<a href="#" onclick="window.open(\'https://twitter.com/share?url='+url_share+'%3Fposture='+sheet_page+'&amp;via=ciudadanoi&amp;hashtags=hayacuerdo&amp;text='+row.postura2.substr(0, 80)+'\',\'twitter\',\'width=450, height=250\')"><i class="fa fa-twitter"></i> twitter</a></div>';
 
